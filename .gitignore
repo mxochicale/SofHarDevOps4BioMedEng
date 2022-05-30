@@ -1,0 +1,35 @@
+# Ignored paths and directories
+## pycharm project path
+.idea
+
+## visual code
+**/.vscode
+
+## Temporal pycache path(s)
+**/__pycache__/
+
+## Temporal notebooks
+**/.ipynb_checkpoints/*
+
+## vim temporal files
+**/*.swp
+
+
+## temporal TeX files
+**/*.aux
+**/*.bbl
+**/*.bcf
+**/*.blg
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.nav
+**/*.run.xml
+**/*.snm
+**/*.synctex.gz
+**/*.toc
+**/*.vrb
+**/*.out
+**/main.pdf
+
+
