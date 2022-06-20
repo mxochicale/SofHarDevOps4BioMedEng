@@ -1,5 +1,4 @@
-# Hands-on Workshop for Biomedical Engineers on Software/Hardware Development toolkits using Git and Github
-sh-toolkits-for-bioengs
+# :hammer_and_wrench: :octocat:	Hands-on Workshop for Biomedical Engineers on Software/Hardware Development toolkits using Git and Github
 
 ## Aims  
 The aim of this workshop is to provide an introduction to the GitHub toolkits to manage the development of software and hardware projects.  
@@ -14,9 +13,9 @@ Late July/ Early August
 Miguel Xochicale, Ph.D., ...
 
 ## Prerequisites  
-* a GitHub account: https://github.com/  
-* a terminal application: Git BASH: https://gitforwindows.org/ for windows users and a terminal for mac and Linux users.  
-* Setting up Setting up SSH keys https://github.com/mxochicale/tools/blob/main/github/SSH.md  
+* Create GitHub account: https://github.com/  
+* Ready to use terminal applications: [Git BASH](https://gitforwindows.org) for windows users and a terminal for mac and Linux users.  
+* Setting up Setting up [SSH keys](tools/ssh)
 
 ## Content
 1. Introduction to GitHub 
