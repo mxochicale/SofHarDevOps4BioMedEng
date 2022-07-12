@@ -1,23 +1,36 @@
-# :hammer_and_wrench: :octocat:	Hands-on Workshop for Biomedical Engineers on Software/Hardware Development toolkits using Git and Github
+# :hammer_and_wrench: :octocat:	SofHarDevOps4BiomedicalEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
 
-## Aims  
-The aim of this workshop is to provide an introduction to the GitHub toolkits to manage the development of software and hardware projects.  
+## Abstract
+Since the publication of the spectrum of reproducubility by Roger Peng in December 2011, there has been a good response from the scientific community to adapt the full scientific replication, including code, data and software \cite{peng2011}. 
+However, there is a current need to adapt the best practices of fully scientific replication workflows to the combination of software and hardware and hardware itself.
+Diederich \textit{et al.} \cite{Diederich2022}, for instance, highlighted the challenges of proper file-sharing and policies for hardware, leading authors to propose the use of guidelines like OSHWA and workshops for Open Hardware Makers as way to create more trustworthy science. 
+Similarly, Stirling et al. \cite{stirling2022} proposed hardOps, hardware operations, as way to address challenges in reproducibility for hardware, consisting on six stages: plan, design and document, prepare and verify, distributed production, physical testing, and feedback. 
+Following up previous our work on "open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX"
+\cite{xochicale2020}, this work presents a workshop for the best practices for Software and Hardware operations, aiming to train the next generation of Biomedical Engineers.
+The workshops contains topics on (1) introduction to git, github, (2) project management, (3) continues integration, (4) standards,(5) exercises and (6) examples of projects following good practices.
+The resources for the workshop are available at https://github.com/mxochicale/SofHarDevOps4BiomedicalEng.
 
-## Audience
+
+## Workshops
+### Aims  
+The aim of this workshop is to provide an introduction to the GitHub toolkits to manage the development of software and hardware projects for biomedical engineers.  
+
+### Audience
 This workshop is targeted to persons with little to none experience with GitHub tools. However, intermediate and advance users might also find the topics of interests.
 
-## Dates
-Late July/ Early August 
+### Dates
+Late late August
 
-## Author(s)
-Miguel Xochicale, Ph.D., ...
+### Instructorsr(s)
+Miguel Xochicale,
 
-## Prerequisites  
+
+### Prerequisites  
 * Create GitHub account: https://github.com/  
 * Ready to use terminal applications: [Git BASH](https://gitforwindows.org) for windows users and a terminal for mac and Linux users.  
 * Setting up Setting up [SSH keys](tools/ssh)
 
-## Content
+### Content
 1. Introduction to GitHub 
 	* Version control 
 	* Git
@@ -47,12 +60,16 @@ Miguel Xochicale, Ph.D., ...
 	* triggering actions to do deployment (eg. uploading to PyPI for Python), 
 	* other continuous integration tasks such as testing before PRs can be accepted 
 
+4. Standards
+	* IEC 62305 - Testing and validation
+	* Good machine learning practices by FDA
+	* Medical Hardware  
 
-3. Exercises 
+5. Exercises 
 	* doing PRs in Github and what the protocol for that should be for a small team, 
 	* PRs between forks, 
 
-4. Software/Hardware projects
+6. Software/Hardware projects
 	* Version control for CAD files (pcbs, stls, others) 
 	* Markdown  
 	* CHANGELOGs 
@@ -63,7 +80,7 @@ Miguel Xochicale, Ph.D., ...
 		* https://github.com/NVIDIA-AI-IOT/jetbot  
 
 
-## References 
+### References 
 * GitAhead to visualise what's going on and prevent some patterns of error 
 * Git cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf : a quick and easy to reference document on the most common git commands. [by RS] 
 * Git "choose your own adventure": http://sethrobertson.github.io/GitFixUm/fixup.html. Essentially it asks a series of questions and then tells you the combination of git commands to fix whatever you need. I find it useful when you have done something particularly stupid (say pushed to remote when you did not mean to). [by RS] 
