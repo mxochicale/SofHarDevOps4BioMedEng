@@ -30,4 +30,4 @@ mostlyclean:
 
 clean: mostlyclean
 	$(LATEXMK) -silent -c
-	$(RM) main.pdf *.bbl *.run.xml
+	$(RM) main.pdf main.bbl

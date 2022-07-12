@@ -1,58 +1,35 @@
 \documentclass[11pt]{article}
-\usepackage{biblatex}
 \usepackage{datetime2}
-%\addbibresource{references.bib}
 
 \title{
-From data, code, cad to ml pipelines: Reproducible biomedical engineering (ReBiEn)
+%Reproducible biomedical engineering workshops (ReBiEng): 
+%From data, code, cad to ml pipelines 
+% Sat  9 Jul 12:11:39 BST 2022
+%Hands-on Workshops for Biomedical Engineers on Software/Hardware Development Toolkits %Sat  9 Jul 12:25:39 BST 2022
+SofHarDevOps4BiomedicalEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers %Mon 11 Jul 17:10:46 BST 2022
 }
 
-\author{Miguel Xochicale}
+\author{Miguel Xochicale \textit{et al.}}
 \date{\DTMNow}
 %(400words)
 
 \begin{document}
 \maketitle
-Nearly a decade ago, December 2011, Roger Peng published an spectrum of reproducibility 
-which depicts a roadmap of a scientific outcome
-that went from publication only to full replication that includes code, data and software.
-%\cite{peng2011}.
-Such spectrum was a cornerstone for 
-the publication of the first open-accessible 
-and 100\% reproducible engineering-based PhD thesis in August 2019 
-at the University of Birmingham established in 1900.
-%\cite{xochicale2019-github}.
-Even thought of such achievement, there are still many challenges in the existing system 
-of formal scientific communication.
-Such challenges were recently described by Heise and Pearce 2020
-for aspects of evaluation of scientific work, 
-speed in the communication process,
-respect for the freedom of science and research,
-dissemination and accessibility, digitization,
-verifiability of scientific knowledge, quality, 
-and prevention of misuse and scientific misconduct.
-%\cite{heise2020}.
-Alongside with the state-of-the-art of research software engineering
-in the context of open access science that is starting to make use 
-of continuous integration tools 
-(Luger and Foreman-Mackey 2019) and 
-containers (Xu 2020).
 
-That being said, in this talk I will introduce a proof-of-concept of 
-"open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX" 
-as an updated version of the spectrum of reproducibility for 
-formal scientific communication.
-Using open-corTeX, I will present an example of the usage of framework 
-for the case of an open-access thesis 
-as well as other academic documents such as cv, slides, and reports. 
-Similarly, I will show how the state-of-the-art of open-access in scientific 
-communication is adopting continuous integration (CI/CD) tools
-as well as the use of containers.
-To then conclude the talk by emphasising 
-the adoption of open-corTeX might led to scientific outcomes 
-that are aligned the principles of 
-reproducibility, inclusiveness, transparency,
-reusability  and open accessibility.
+Since the publication of the spectrum of reproducubility by Roger Peng in December 2011, there has been a good response of the scientific community to adapt the full scientific replication including code, data and software \cite{peng2011}. 
+%published a roadmap for open and reproducible science going from publication only to 
+However, there is a need to adapt the best practices of fully scientific replication workflows to hardware and the combination of software and hardware. 
+Diederich et al. \cite{Diederich2022}, for instance, highlighted the challenges of proper file-sharing and policies for hardware to which authors proposed the use of guidelines like OSHWA and workshops for Open Hardware Makers as way to create more trustworthy science. 
+Similarly, Stirling et al. \cite{stirling2022} proposed hardOps, hardware operations, as way to address challenges in reproducibility for hardware, consisting on six stages: plan, design and document, prepare and verify, distributed production, physical testing, and feedback. 
+Following up previous our work on "open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX"
+\cite{xochicale2020}, this work presents a workshop that includes the best practices for Software and Hardware operations to train the next generation of Biomedical Engineers.
+The workshops contains topics for (1) introduction to git, github, (2) project management, (3) continues integration (4) exercises and (5) examples of projects following good practices.
+The resources for the workshop are available at https://github.com/mxochicale/SofHarDevOps4BiomedicalEng.
+
+\newpage
+%\bibliographystyle{apalike}
+\bibliographystyle{plain}
+\bibliography{references/references}
 
 %\printbibliography
 \end{document}
