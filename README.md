@@ -7,17 +7,22 @@ The aim of this workshop is to provide an introduction to the GitHub toolkits to
 ### Audience
 This workshop is targeted to persons with little to none experience with GitHub tools. However, intermediate and advance users might also find the topics of interests.
 
-### Dates
-Late late August
+### Dates and times
+22 to 26 August 2022! (Exact days to be confirmed)
 
 ### Instructorsr(s)
-Miguel Xochicale,
+Miguel, etc 
 
 
 ### Prerequisites  
 * Create GitHub account: https://github.com/  
-* Ready to use terminal applications: [Git BASH](https://gitforwindows.org) for windows users and a terminal for mac and Linux users.  
+* Terminal applications: [Git BASH](https://gitforwindows.org) for windows users and a terminal for mac and Linux users.  
 * Setting up Setting up [SSH keys](tools/ssh)
+* Clone this repo:
+```
+mkdir -p $HOME/repositories/ && cd $HOME/repositories/ ## suggested path
+git clone git@github.com:mxochicale/SofHarDevOps4BiomedicalEng.git
+```
 
 ### Content
 1. Introduction to GitHub 
@@ -50,9 +55,9 @@ Miguel Xochicale,
 	* other continuous integration tasks such as testing before PRs can be accepted 
 
 4. Standards
-	* IEC 62305 - Testing and validation
+	* Software Testing and validation (IEC 62305) 
+	* Medical Device Software (IEC 60601)
 	* Good machine learning practices by FDA
-	* Medical Hardware  
 
 5. Exercises 
 	* doing PRs in Github and what the protocol for that should be for a small team, 
@@ -63,7 +68,7 @@ Miguel Xochicale,
 	* Markdown  
 	* CHANGELOGs 
 	* Jupyter notebook features 
-	* Jupyterlab - it helps prevent some of the more common errors as well as just being convenient if Jupyter is something you're standardising on. 
+	* Jupyterlab 
 	* Projects combining software/hardware 
 		* https://github.com/nasa-jpl/open-source-rover  
 		* https://github.com/NVIDIA-AI-IOT/jetbot  
