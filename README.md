@@ -1,4 +1,4 @@
-# :hammer_and_wrench: :octocat:	SofHarDevOps4BiomedicalEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
+# :hammer_and_wrench: :octocat:	SofHarDevOps4BioMedEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
 
 ## Workshop
 ### Aims  

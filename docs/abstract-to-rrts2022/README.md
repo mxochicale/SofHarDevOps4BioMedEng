@@ -15,8 +15,7 @@ Recently, Diederich et al. 2022, for instance, highlighted the challenges of pro
 Similarly, Stirling et al. 2022 proposed hardOps, hardware operations, as a way to address challenges in reproducibility for hardware, consisting on six stages: plan, design and document, prepare and verify, distributed production, physical testing, and feedback (Stirling 2022). 
 Hence, following up our previous work on "open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX" (Xochicale 2020), this work presents a workshop on the best practices for Software and Hardware operations, aiming to equipping the next generation of Biomedical Engineers with appropriate skills and tools to create reproducible and trustworthy science.
 The workshop contains six lessons on (1) introduction to git, GitHub, (2) project management, (3) continuous integration, (4) standards, (5) exercises and (6) examples of projects.
-The resources of the workshop are available at https://github.com/mxochicale/SofHarDevOps4BioMedEng.
-
+The resources of the workshop are available at https://github.com/KCL-BMEIS/SofHarDevOps4BioMedEng.
 
 ## OVERLEAF: "Anyone with this link can edit this project"
 https://www.overleaf.com/2673429979cmyzgqwvxhdj
