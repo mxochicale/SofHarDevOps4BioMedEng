@@ -1,6 +1,7 @@
-# :hammer_and_wrench: :octocat:	SofHarDevOps4BiomedicalEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
+# :hammer_and_wrench: :octocat:	SofHarDevOps4BioMedEng: 
+# Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
 
-## Workshops
+## Workshop
 ### Aims  
 The aim of this workshop is to provide an introduction to the GitHub toolkits to manage the development of software and hardware projects for biomedical engineers.  
 
@@ -10,7 +11,7 @@ This workshop is targeted to persons with little to none experience with GitHub 
 ### Dates and times
 22 to 26 August 2022! (Exact days to be confirmed)
 
-### Instructorsr(s)
+### Instructor(s)
 Miguel, etc 
 
 
@@ -21,7 +22,7 @@ Miguel, etc
 * Clone this repo:
 ```
 mkdir -p $HOME/repositories/ && cd $HOME/repositories/ ## suggested path
-git clone git@github.com:mxochicale/SofHarDevOps4BiomedicalEng.git
+git clone git@github.com:KCL-BMEIS/SofHarDevOps4BioMedEng.git
 ```
 
 ### Content
@@ -46,7 +47,7 @@ git clone git@github.com:mxochicale/SofHarDevOps4BiomedicalEng.git
 	* Labels 
 	* Discussions 
 	* Wikis  
-	* repository forks and what they are for (ie. allowing outside users to propose PRs without being collaborators on the original repo), 
+	* repository forks and what they are for (ie. allowing outside users to propose PRs without being collaborators on the original repo)
 
 3. Continous Integration
 	* Actions 
@@ -84,17 +85,12 @@ git clone git@github.com:mxochicale/SofHarDevOps4BiomedicalEng.git
 	* https://lab.github.com/githubtraining/first-day-on-github 
 	* http://sethrobertson.github.io/GitFixUm/fixup.html 
 * Onshape and gihub: https://forum.onshape.com/discussion/14327/making-onshape-document-available-on-github 
-* GitFlow concepts (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) by [EK]  
+* GitFlow concepts (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) [by EK]  
 
-## Abstract to reproducibility-replicability-and-trust-in-science-20220907
-Since the publication of the spectrum of reproducubility by Roger Peng in December 2011, there has been a good response from the scientific community to adapt the full scientific replication, including code, data and software \cite{peng2011}. 
-However, there is a current need to adapt the best practices of fully scientific replication workflows to the combination of software and hardware and hardware itself.
-Diederich \textit{et al.} \cite{Diederich2022}, for instance, highlighted the challenges of proper file-sharing and policies for hardware, leading authors to propose the use of guidelines like OSHWA and workshops for Open Hardware Makers as way to create more trustworthy science. 
-Similarly, Stirling et al. \cite{stirling2022} proposed hardOps, hardware operations, as way to address challenges in reproducibility for hardware, consisting on six stages: plan, design and document, prepare and verify, distributed production, physical testing, and feedback. 
-Following up previous our work on "open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX"
-\cite{xochicale2020}, this work presents a workshop for the best practices for Software and Hardware operations, aiming to train the next generation of Biomedical Engineers.
-The workshops contains topics on (1) introduction to git, github, (2) project management, (3) continues integration, (4) standards,(5) exercises and (6) examples of projects following good practices.
-The resources for the workshop are available at https://github.com/mxochicale/SofHarDevOps4BiomedicalEng.
+## Reproducibility, replicability and trust in science 2022
+
+### Abstract 
+[See submitted abstract](docs/abstract-to-rrts2022)
 
 ## References
 https://coursesandconferences.wellcomeconnectingscience.org/event/reproducibility-replicability-and-trust-in-science-20220907
