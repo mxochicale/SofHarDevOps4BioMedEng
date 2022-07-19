@@ -1,4 +1,5 @@
-# :hammer_and_wrench: :octocat:	SofHarDevOps4BioMedEng: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
+# :hammer_and_wrench: :octocat:	SofHarDevOps4BioMedEng: 
+# Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers
 
 ## Workshop
 ### Aims  
@@ -21,7 +22,7 @@ Miguel, etc
 * Clone this repo:
 ```
 mkdir -p $HOME/repositories/ && cd $HOME/repositories/ ## suggested path
-git clone git@github.com:mxochicale/SofHarDevOps4BiomedicalEng.git
+git clone git@github.com:KCL-BMEIS/SofHarDevOps4BioMedEng.git
 ```
 
 ### Content
