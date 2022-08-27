@@ -2,12 +2,12 @@
 
 ## Submitted abstract
 
-Session: Training
-Presentation Type: Talk and poster
-Abstract title: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers: SofHarDevOps4BioMedEng
-Lead Author: Miguel Xochicale
-Supporting Authors: Eric Kerfoot 
-Abstract Text:
+Session: Training  
+Presentation Type: Talk and poster  
+Abstract title: Hands-on Workshop on Software and Hardware Developer Operations for Biomedical Engineers: SofHarDevOps4BioMedEng  
+Lead Author: Miguel Xochicale  
+Supporting Authors: Eric Kerfoot   
+Abstract Text:  
 
 In last decade, there has been a good response from the scientific community to adopt the full scientific replication, including code, data, and software (Peng 2011). 
 However, there is a current need to adopt the best practices of fully scientific replication workflows to both software and hardware.
